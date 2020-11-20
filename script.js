@@ -18,6 +18,7 @@ function imageLoaded() {
   console.log(imagesLoaded);
   if (imagesLoaded === totalImages) {
     ready = true;
+    loader.hidden =true;
     imagesLoaded=0;
     console.log('ready =', ready);
   }
