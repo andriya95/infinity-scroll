@@ -47,7 +47,7 @@ h1 {
   margin-top: 5px;
 }
 
-/* MEdia Query: Smartphone */
+/* Media Query: Smartphone */
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 20px;
